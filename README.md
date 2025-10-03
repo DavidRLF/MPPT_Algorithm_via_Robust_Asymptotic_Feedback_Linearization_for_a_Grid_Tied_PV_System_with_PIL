@@ -19,19 +19,20 @@ These Simulink models are configured for target code generation and ET profiling
 - **`S_MTET_SF_MPPT_ALG_V1`** – State-feedback (SF) MPPT controller configured for F28069M ET measurement.  
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/33bb444b-9533-4743-9350-47a12f15fc30" alt="F28069M ET model - PI MPPT (S_MTET_PI_MPPT_ALG_V1)" width="823" height="548">
+  <img src="https://github.com/user-attachments/assets/33bb444b-9533-4743-9350-47a12f15fc30" alt="F28069M ET model - PI MPPT (S_MTET_PI_MPPT_ALG_V1)" width="60%">
   <br><em>Figure 3. F28069M ET-measurement model — PI-MPPT: <code>S_MTET_PI_MPPT_ALG_V1</code>.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/84e316da-0fb7-479b-802b-e5b7b02b04ae" alt="F28069M ET model - P MPPT (S_MTET_PROP_MPPT_ALG_V1)" width="927" height="453">
+  <img src="https://github.com/user-attachments/assets/84e316da-0fb7-479b-802b-e5b7b02b04ae" alt="F28069M ET model - P MPPT (S_MTET_PROP_MPPT_ALG_V1)" width="60%">
   <br><em>Figure 4. F28069M ET-measurement model — Proportional MPPT: <code>S_MTET_PROP_MPPT_ALG_V1</code>.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9e5981a9-ed8c-429d-a1a2-4ae91858281f" alt="F28069M ET model - SF MPPT (S_MTET_SF_MPPT_ALG_V1)" width="944" height="506">
+  <img src="https://github.com/user-attachments/assets/9e5981a9-ed8c-429d-a1a2-4ae91858281f" alt="F28069M ET model - SF MPPT (S_MTET_SF_MPPT_ALG_V1)" width="60%">
   <br><em>Figure 5. F28069M ET-measurement model — State-feedback MPPT: <code>S_MTET_SF_MPPT_ALG_V1</code>.</em>
 </p>
+
 
 
 
