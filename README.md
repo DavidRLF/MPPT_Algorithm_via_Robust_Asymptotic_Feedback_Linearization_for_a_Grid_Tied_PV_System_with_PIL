@@ -178,7 +178,41 @@ The program should now be executing on the board. In the example below, the **bl
   <br><em>Figure 23. On-board ET measurement (BP): PWM (blue) and execution time (yellow).</em>
 </p>
 
-Repetir los pasos del metodo BP Escbrir en la ventana de comandos "codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')" <img width="636" height="62" alt="image" src="https://github.com/user-attachments/assets/1c0339d5-cb72-4e55-a614-5baac7f38b2e" /> Seguido aparecera el siguiente mensaje <img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/4d648a7c-b102-4397-9c7f-66b34ad6d5dc" /> Despues, dar click en "report(ans)" <img width="790" height="207" alt="image" src="https://github.com/user-attachments/assets/ebf8a1a2-d932-44a9-a09f-5881ae031011" /> Se desplegara otra ventana, donde en el circulo rojo aparece el tiempo de ejecucion (TE), el cual se tiene que multiplicar por la base de tiempo marcada en el circulo verde para obtener el TE <img width="1231" height="926" alt="image" src="https://github.com/user-attachments/assets/8c6cce98-cab7-48d0-bb3e-a1d12e771492" /> "
+### Method 2 — Code Execution Profiling (CEP)
+
+- **Repeat the BP build & deploy steps** on **F28069M**.  
+- In Simulink, enable **Code Execution Profiling** in *Hardware Implementation → Code profiling / Instrumentation*.
+
+1) **Get profiling data from the target**
+```matlab
+codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')
+```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1c0339d5-cb72-4e55-a614-5baac7f38b2e" alt="MATLAB command to get CEP data" width="60%">
+  <br><em>Figure 24. Retrieving CEP data with <code>codertarget.profile.getData(...)</code>.</em>
+</p>
+
+2) **Confirm data availability**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d648a7c-b102-4397-9c7f-66b34ad6d5dc" alt="CEP data availability message" width="60%">
+  <br><em>Figure 25. CEP data availability message.</em>
+</p>
+
+3) **Open the CEP report**
+```matlab
+report(ans)
+```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ebf8a1a2-d932-44a9-a09f-5881ae031011" alt="Open CEP report from MATLAB" width="70%">
+  <br><em>Figure 26. Opening the Code Execution Profiling report.</em>
+</p>
+
+4) **Interpret the report (ET)**  
+The **execution time (ET)** is shown in the **red** field; multiply it by the **time base** in the **green** field to obtain ET in seconds.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8c6cce98-cab7-48d0-bb3e-a1d12e771492" alt="CEP report with execution time and time base" width="75%">
+  <br><em>Figure 27. CEP report — execution time (red) and time base (green).</em>
+</p>
 
 
 
