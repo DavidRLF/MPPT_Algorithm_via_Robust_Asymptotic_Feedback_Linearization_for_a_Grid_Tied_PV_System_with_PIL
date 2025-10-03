@@ -203,7 +203,7 @@ codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')
 report(ans)
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ebf8a1a2-d932-44a9-a09f-5881ae031011" alt="Open CEP report from MATLAB" width="70%">
+  <img src="https://github.com/user-attachments/assets/ebf8a1a2-d932-44a9-a09f-5881ae031011" alt="Open CEP report from MATLAB" width="50%">
   <br><em>Figure 26. Opening the Code Execution Profiling report.</em>
 </p>
 
