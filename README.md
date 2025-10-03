@@ -155,7 +155,7 @@ Two on-board ET measurement methods are supported:
 2) **Deploy to Hardware**
 Click the **Deploy to Hardware** button (red-circled in the toolbar) and ensure the board is connected to the correct serial/COM port.
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0321e9f9-315b-4979-919c-b5821d173998" alt="Deploy to Hardware button" width="80%">
+  <img src="https://github.com/user-attachments/assets/24d84d2b-8fbb-4b15-9f43-e9022936ae44" alt="Deploy to Hardware button" width="80%">
   <br><em>Figure 20. Deploy to Hardware button.</em>
 </p>
 
