@@ -1,12 +1,12 @@
 Run the script **`M_MPPT_ALGS_PIL_SIM_V1`** first to simulate the MPPT algorithms included in the PV system model, which is provided in **`S_MPPT_ALGS_PIL_SIM_V1`**. **Both models can also run without PIL**—use Simulink’s *Normal* or *Accelerator* simulation modes on the host. PIL on **F28M35x** is optional and documented below.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b42f5856-69db-4567-ba50-4d4dd4e68895" alt="Script M_MPPT_ALGS_PIL_SIM_V1" width="80%">
+  <img src="https://github.com/user-attachments/assets/b42f5856-69db-4567-ba50-4d4dd4e68895" alt="Script M_MPPT_ALGS_PIL_SIM_V1" width="100%">
   <br><em>Figure 1. Simulation script: <code>M_MPPT_ALGS_PIL_SIM_V1</code>.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/59237380-431f-4d7d-95e0-98a725c76384" alt="PV system model S_MPPT_ALGS_PIL_SIM_V1" width="80%">
+  <img src="https://github.com/user-attachments/assets/59237380-431f-4d7d-95e0-98a725c76384" alt="PV system model S_MPPT_ALGS_PIL_SIM_V1" width="100%">
   <br><em>Figure 2. PV system model with the MPPT algorithms: <code>S_MPPT_ALGS_PIL_SIM_V1</code>.</em>
 </p>
 
