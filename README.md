@@ -6,9 +6,10 @@ Run the script **`M_MPPT_ALGS_PIL_SIM_V1`** first to simulate the MPPT algorithm
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/59237380-431d-95e0-98a725c76384" alt="PV system model S_MPPT_ALGS_PIL_SIM_V1" width="80%">
+  <img src="https://github.com/user-attachments/assets/59237380-431f-4d7d-95e0-98a725c76384" alt="PV system model S_MPPT_ALGS_PIL_SIM_V1" width="80%">
   <br><em>Figure 2. PV system model with the MPPT algorithms: <code>S_MPPT_ALGS_PIL_SIM_V1</code>.</em>
 </p>
+
 
 ---
 
