@@ -134,6 +134,47 @@ These Simulink models are configured for target code generation and ET profiling
   <br><em>Figure 18. F28069M ET-measurement model — State-feedback MPPT: <code>S_MTET_SF_MPPT_ALG_V1</code>.</em>
 </p>
 
+---
+
+## Quick guide: execution-time measurement (on **F28069M**)
+
+1) **Hardware Implementation — parameter setup (F28069M)**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8610ef5d-0ed5-4594-8a43-ab4cd2e4c117" alt="F28069M Hardware Implementation parameters" width="60%">
+  <br><em>Figure 19. Hardware Implementation parameters for execution-time (ET) builds on F28069M.</em>
+</p>
+
+2) **Deploy to Hardware**
+Click the **Deploy to Hardware** button (red-circled in the toolbar) and ensure the board is connected to the correct serial/COM port.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0321e9f9-315b-4979-919c-b5821d173998" alt="Deploy to Hardware button" width="80%">
+  <br><em>Figure 20. Deploy to Hardware button.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3e35d557-ef43-4a8e-960f-2de5b048e5ad" alt="Board connected to serial port" width="60%">
+  <br><em>Figure 21. F28069M board connected to the serial/COM port.</em>
+</p>
+
+3) **Check the Diagnostic Viewer**
+At the end of the build, the **Diagnostic Viewer** should report a successful deployment.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2d7ccba5-b627-46cc-990c-cf15e5a483c3" alt="Diagnostic Viewer successful ET build" width="60%">
+  <br><em>Figure 22. Successful ET build in Diagnostic Viewer (F28069M).</em>
+</p>
+
+4) **Program running — oscilloscope verification**
+The program should now be executing on the board. In the example below, the **blue** trace measures the **PWM output**, and the **yellow** trace measures the **execution time** using a block-prioritization (GPIO toggle) method.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d3523221-74c5-42f8-95fc-5950e2db1419" alt="Oscilloscope signals: PWM (blue) and execution time (yellow)" width="65%">
+  <br><em>Figure 23. On-board ET measurement: PWM (blue) and execution time (yellow).</em>
+</p>
+
+
+
+
+
+
 
 
 
