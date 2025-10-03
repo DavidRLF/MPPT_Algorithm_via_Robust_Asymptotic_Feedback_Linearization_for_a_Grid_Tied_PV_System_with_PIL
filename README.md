@@ -136,7 +136,15 @@ These Simulink models are configured for target code generation and ET profiling
 
 ---
 
+---
+
 ## Quick guide: execution-time measurement (on **F28069M**)
+Two on-board ET measurement methods are supported:  
+**(1) Block Prioritization (BP)** via GPIO toggling + oscilloscope, and  
+**(2) Code Execution Profiling (CEP)** via profiling instrumentation and report.  
+**The steps below correspond to BP.** A separate subsection can be added for CEP.
+
+### Method 1 — Block Prioritization (BP)
 
 1) **Hardware Implementation — parameter setup (F28069M)**
 <p align="center">
@@ -164,11 +172,18 @@ At the end of the build, the **Diagnostic Viewer** should report a successful de
 </p>
 
 4) **Program running — oscilloscope verification**
-The program should now be executing on the board. In the example below, the **blue** trace measures the **PWM output**, and the **yellow** trace measures the **execution time** using a block-prioritization (GPIO toggle) method.
+The program should now be executing on the board. In the example below, the **blue** trace measures the **PWM output**, and the **yellow** trace measures the **execution time** using the BP (GPIO toggle) method.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d3523221-74c5-42f8-95fc-5950e2db1419" alt="Oscilloscope signals: PWM (blue) and execution time (yellow)" width="65%">
-  <br><em>Figure 23. On-board ET measurement: PWM (blue) and execution time (yellow).</em>
+  <br><em>Figure 23. On-board ET measurement (BP): PWM (blue) and execution time (yellow).</em>
 </p>
+
+### Method 2 — Code Execution Profiling (CEP) *(outline)*
+- Enable **Code Execution Profiling** in *Hardware Implementation → Code profiling / Instrumentation*.  
+- Deploy to hardware, run, and open the **Code Execution Profiling Report** from the Diagnostic Viewer.  
+- Inspect function-/task-level timing (e.g., step/update function of the MPPT block).
+
+
 
 
 
