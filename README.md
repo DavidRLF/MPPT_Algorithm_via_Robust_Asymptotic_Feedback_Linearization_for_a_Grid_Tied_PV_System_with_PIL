@@ -178,16 +178,7 @@ The program should now be executing on the board. In the example below, the **bl
   <br><em>Figure 23. On-board ET measurement (BP): PWM (blue) and execution time (yellow).</em>
 </p>
 
-### Method 2 — Code Execution Profiling (CEP)
-
-1) **Enable CEP instrumentation**
-- In Simulink, open **Hardware Implementation → Code profiling / Instrumentation** and enable **Code Execution Profiling**.
-- **Repeat BP steps** for building and deploying to the **F28069M** board.
-
-2) **Get profiling data from the target**
-Open the MATLAB Command Window and run:
-```matlab
-codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')
+Repetir los pasos del metodo BP Escbrir en la ventana de comandos "codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')" <img width="636" height="62" alt="image" src="https://github.com/user-attachments/assets/1c0339d5-cb72-4e55-a614-5baac7f38b2e" /> Seguido aparecera el siguiente mensaje <img width="616" height="55" alt="image" src="https://github.com/user-attachments/assets/4d648a7c-b102-4397-9c7f-66b34ad6d5dc" /> Despues, dar click en "report(ans)" <img width="790" height="207" alt="image" src="https://github.com/user-attachments/assets/ebf8a1a2-d932-44a9-a09f-5881ae031011" /> Se desplegara otra ventana, donde en el circulo rojo aparece el tiempo de ejecucion (TE), el cual se tiene que multiplicar por la base de tiempo marcada en el circulo verde para obtener el TE <img width="1231" height="926" alt="image" src="https://github.com/user-attachments/assets/8c6cce98-cab7-48d0-bb3e-a1d12e771492" /> "
 
 
 
