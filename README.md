@@ -96,6 +96,17 @@ The F28M35x development board should indicate communication via its LEDs (patter
   <br><em>Figure 15. Communication indicators on the F28M35x board.</em>
 </p>
 
+11) **PIL simulation in progress**  
+You should now see the simulation running in PIL mode. Verify the measurements in **blocks A and B**.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e3ee886b-004a-491c-9d64-73433514252e" alt="PIL simulation in progress — monitor blocks A and B" width="80%">
+  <br><em>Figure 16. PIL simulation in progress — monitor blocks A and B.</em>
+</p>
+
+
+
+
 ---
 
 ## ET-only builds (on **F28069M**)
