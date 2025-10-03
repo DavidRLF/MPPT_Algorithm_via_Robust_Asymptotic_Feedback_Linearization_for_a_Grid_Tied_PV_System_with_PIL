@@ -1,12 +1,12 @@
 Run the script **`M_MPPT_ALGS_PIL_SIM_V1`** first to simulate the MPPT algorithms included in the PV system model, which is provided in **`S_MPPT_ALGS_PIL_SIM_V1`**. Below are the previously presented contents of both files.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/b42f5856-69db-4567-ba50-4d4dd4e68895" alt="Script M_MPPT_ALGS_PIL_SIM_V1" width="60%">
+  <img src="https://github.com/user-attachments/assets/b42f5856-69db-4567-ba50-4d4dd4e68895" alt="Script M_MPPT_ALGS_PIL_SIM_V1" width="80%">
   <br><em>Figure 1. Simulation script: <code>M_MPPT_ALGS_PIL_SIM_V1</code>.</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/59237380-431f-4d7d-95e0-98a725c76384" alt="PV system model S_MPPT_ALGS_PIL_SIM_V1" width="60%">
+  <img src="https://github.com/user-attachments/assets/59237380-431d-95e0-98a725c76384" alt="PV system model S_MPPT_ALGS_PIL_SIM_V1" width="80%">
   <br><em>Figure 2. PV system model with the MPPT algorithms: <code>S_MPPT_ALGS_PIL_SIM_V1</code>.</em>
 </p>
 
@@ -16,7 +16,7 @@ Run the script **`M_MPPT_ALGS_PIL_SIM_V1`** first to simulate the MPPT algorithm
 
 1) **Parameter configuration**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5163501f-b6bf-4e13-9492-b32216704bb3" alt="Parameter configuration" width="60%">
+  <img src="https://github.com/user-attachments/assets/5163501f-b6bf-4e13-9492-b32216704bb3" alt="Parameter configuration" width="40%">
   <br><em>Figure 3. Simulation / code generation parameters.</em>
 </p>
 
