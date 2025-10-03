@@ -188,13 +188,13 @@ The program should now be executing on the board. In the example below, the **bl
 codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1c0339d5-cb72-4e55-a614-5baac7f38b2e" alt="MATLAB command to get CEP data" width="60%">
+  <img src="https://github.com/user-attachments/assets/1c0339d5-cb72-4e55-a614-5baac7f38b2e" alt="MATLAB command to get CEP data" width="50%">
   <br><em>Figure 24. Retrieving CEP data with <code>codertarget.profile.getData(...)</code>.</em>
 </p>
 
 2) **Confirm data availability**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4d648a7c-b102-4397-9c7f-66b34ad6d5dc" alt="CEP data availability message" width="60%">
+  <img src="https://github.com/user-attachments/assets/4d648a7c-b102-4397-9c7f-66b34ad6d5dc" alt="CEP data availability message" width="50%">
   <br><em>Figure 25. CEP data availability message.</em>
 </p>
 
