@@ -178,10 +178,22 @@ The program should now be executing on the board. In the example below, the **bl
   <br><em>Figure 23. On-board ET measurement (BP): PWM (blue) and execution time (yellow).</em>
 </p>
 
-### Method 2 — Code Execution Profiling (CEP) *(outline)*
-- Enable **Code Execution Profiling** in *Hardware Implementation → Code profiling / Instrumentation*.  
-- Deploy to hardware, run, and open the **Code Execution Profiling Report** from the Diagnostic Viewer.  
-- Inspect function-/task-level timing (e.g., step/update function of the MPPT block).
+### Method 2 — Code Execution Profiling (CEP)
+
+1) **Enable CEP instrumentation**
+- In Simulink, open **Hardware Implementation → Code profiling / Instrumentation** and enable **Code Execution Profiling**.
+- **Repeat BP steps** for building and deploying to the **F28069M** board.
+
+2) **Get profiling data from the target**
+Open the MATLAB Command Window and run:
+```matlab
+codertarget.profile.getData('S_MTET_PROP_MPPT_ALG_V1')
+
+
+
+
+
+
 
 
 
