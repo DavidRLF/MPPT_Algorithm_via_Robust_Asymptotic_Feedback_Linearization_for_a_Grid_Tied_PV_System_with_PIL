@@ -220,17 +220,17 @@ The **execution time (ET)** is shown in the **red** field; multiply it by the **
 1) Laboratory-scale experimental platform
 The experimental platform is used for real-time dc-side validation of the control layer of the proposed MPPT algorithm implemented through the FL-P-EHGO controller.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/a67516be-0765-4b44-9070-1e56b58ed1bb" alt="Laboratory-scale experimental setup" width="50%"> <br><em>Figure 27. Laboratory-scale experimental setup for real-time validation of the control layer of the proposed MPPT algorithm.</em> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/a67516be-0765-4b44-9070-1e56b58ed1bb" alt="Laboratory-scale experimental setup" width="80%"> <br><em>Figure 27. Laboratory-scale experimental setup for real-time validation of the control layer of the proposed MPPT algorithm.</em> </p>
 
 ## 2) Interrupt-driven real-time control architecture
 All MPPT controllers are implemented using the interrupt-driven digital control architecture. The reference generation stage and the FL-P-EHGO control layer operate within the real-time loop.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/2ce4fcb9-bd77-4b0c-9122-3df12cb9f83c" alt="Interrupt-driven digital control architecture" width="50%"> <br><em>Figure 28. Interrupt-driven digital control architecture for real-time implementation of the proposed MPPT algorithm.</em> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/2ce4fcb9-bd77-4b0c-9122-3df12cb9f83c" alt="Interrupt-driven digital control architecture" width="80%"> <br><em>Figure 28. Interrupt-driven digital control architecture for real-time implementation of the proposed MPPT algorithm.</em> </p>
 
 ## 3) Experimental data acquisition, logging and monitoring
 Measured signals are transmitted to the host PC for real-time monitoring, logging, and post-processing.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" alt="Experimental data acquisition logging monitoring" width="50%"> <br><em>Figure 29. Experimental data acquisition, logging and monitoring workflow.</em> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" alt="Experimental data acquisition logging monitoring" width="80%"> <br><em>Figure 29. Experimental data acquisition, logging and monitoring workflow.</em> </p>
 
 ## 4) Run the experimental real-time model (F28069M)
 Execute the corresponding Simulink model for the MPPT controller under evaluation:
