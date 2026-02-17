@@ -215,39 +215,39 @@ The **execution time (ET)** is shown in the **red** field; multiply it by the **
 </p>
 
 
-Quick guide: laboratory-scale experimental validation (on F28069M)
+## Quick guide: laboratory-scale experimental validation (on F28069M)
 
 1) Laboratory-scale experimental platform
 The experimental platform is used for real-time dc-side validation of the control layer of the proposed MPPT algorithm implemented through the FL-P-EHGO controller.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/a67516be-0765-4b44-9070-1e56b58ed1bb" alt="Laboratory-scale experimental setup" width="100%"> <br><em>Figure X. Laboratory-scale experimental setup for real-time validation of the control layer of the proposed MPPT algorithm.</em> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/a67516be-0765-4b44-9070-1e56b58ed1bb" alt="Laboratory-scale experimental setup" width="100%"> <br><em>Figure 27. Laboratory-scale experimental setup for real-time validation of the control layer of the proposed MPPT algorithm.</em> </p>
 
-2) Interrupt-driven real-time control architecture
+## 2) Interrupt-driven real-time control architecture
 All MPPT controllers are implemented using the interrupt-driven digital control architecture. The reference generation stage and the FL-P-EHGO control layer operate within the real-time loop.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/2ce4fcb9-bd77-4b0c-9122-3df12cb9f83c" alt="Interrupt-driven digital control architecture" width="100%"> <br><em>Figure X. Interrupt-driven digital control architecture for real-time implementation of the proposed MPPT algorithm.</em> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/2ce4fcb9-bd77-4b0c-9122-3df12cb9f83c" alt="Interrupt-driven digital control architecture" width="100%"> <br><em>Figure 28. Interrupt-driven digital control architecture for real-time implementation of the proposed MPPT algorithm.</em> </p>
 
-3) Experimental data acquisition, logging and monitoring
+## 3) Experimental data acquisition, logging and monitoring
 Measured signals are transmitted to the host PC for real-time monitoring, logging, and post-processing.
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" alt="Experimental data acquisition logging monitoring" width="100%"> <br><em>Figure X. Experimental data acquisition, logging and monitoring workflow.</em> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" alt="Experimental data acquisition logging monitoring" width="100%"> <br><em>Figure 29. Experimental data acquisition, logging and monitoring workflow.</em> </p>
 <img width="1901" height="1000" alt="image" src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" />
 
-4) Run the experimental real-time model (F28069M)
+## 4) Run the experimental real-time model (F28069M)
 Execute the corresponding Simulink model for the MPPT controller under evaluation:
 
-S_EXP_PI_MPPT_V1
-S_EXP_PROP_MPPT_V1
-S_EXP_SF_MPPT_V1
+**(1) S_EXP_PI_MPPT_V1
+**(2) S_EXP_PROP_MPPT_V1
+**(3) S_EXP_SF_MPPT_V1
 
 Ensure the F28069M board is connected and correctly configured before deployment.
 
-5) Generate experimental plots and metrics
+## 5) Generate experimental plots and metrics
 After completing the experimental run, execute the corresponding post-processing script:
 
-S_GRAP_EXP_PI_MPPT_V1
-S_GRAP_EXP_PROP_MPPT_V1
-S_GRAP_EXP_SF_MPPT_V1
+**(1) S_GRAP_EXP_PI_MPPT_V1
+**(2) S_GRAP_EXP_PROP_MPPT_V1
+**(3) S_GRAP_EXP_SF_MPPT_V1
 
 These scripts reproduce the experimental figures and compute the performance metrics.
 
