@@ -235,18 +235,18 @@ Measured signals are transmitted to the host PC for real-time monitoring, loggin
 ## 4) Run the experimental real-time model (F28069M)
 Execute the corresponding Simulink model for the MPPT controller under evaluation:
 
-**(1) S_EXP_PI_MPPT_V1**
-**(2) S_EXP_PROP_MPPT_V1**
-**(3) S_EXP_SF_MPPT_V1**
+- **`S_EXP_PI_MPPT_V1**
+- **`S_EXP_PROP_MPPT_V1**
+- **`S_EXP_SF_MPPT_V1**
 
 Ensure the F28069M board is connected and correctly configured before deployment.
 
 ## 5) Generate experimental plots and metrics
 After completing the experimental run, execute the corresponding post-processing script:
 
-**(1) S_GRAP_EXP_PI_MPPT_V1**
-**(2) S_GRAP_EXP_PROP_MPPT_V1**
-**(3) S_GRAP_EXP_SF_MPPT_V1**
+- **`S_GRAP_EXP_PI_MPPT_V1`**
+- **`S_GRAP_EXP_PROP_MPPT_V1`**
+- **`S_GRAP_EXP_SF_MPPT_V1`**
 
 These scripts reproduce the experimental figures and compute the performance metrics.
 
