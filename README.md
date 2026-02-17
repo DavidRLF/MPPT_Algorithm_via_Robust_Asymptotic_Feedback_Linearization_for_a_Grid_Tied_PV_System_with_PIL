@@ -231,7 +231,6 @@ All MPPT controllers are implemented using the interrupt-driven digital control 
 Measured signals are transmitted to the host PC for real-time monitoring, logging, and post-processing.
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" alt="Experimental data acquisition logging monitoring" width="100%"> <br><em>Figure 29. Experimental data acquisition, logging and monitoring workflow.</em> </p>
-<img width="1901" height="1000" alt="image" src="https://github.com/user-attachments/assets/495cb600-c0cc-4d00-9637-2aebfb476ee0" />
 
 ## 4) Run the experimental real-time model (F28069M)
 Execute the corresponding Simulink model for the MPPT controller under evaluation:
